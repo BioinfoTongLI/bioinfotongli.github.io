@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked #sidebar
+style: dark 
 
 plugins:
   - jekyll-octicons
@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars 
   # sort_by options:
   #   - pushed
   #   - stars
@@ -45,12 +45,16 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Numpy 
+    web_url: https://www.numpy.org/ 
+    #image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: Quantitative biology 
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Image analysis
+    web_url: https://forum.image.sc/
+    image_url: https://sjc1.discourse-cdn.com/business4/uploads/imagej/original/2X/4/4904e8fe196486eabdbe0d9d185e94dfcab74e10.png
+
+  - name: Statistics/Machine learning
+    web_url: https://www.scipy.org/
+    #image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
